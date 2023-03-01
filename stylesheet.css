@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: gray;
+}
+
+html {
+    background-color:cadetblue;
+}
+
+* a {
+    color: cadetblue;
+    text-decoration: none;
+    font-style: none;
+}
+
+* a:hover {
+    text-decoration: underline;
+}
+
+input {
+    padding: 5px;
+    margin: 0px 0px 0px 15px;
+    font-size: medium;
+    width: 220px;
+    border: 2px solid darkgray;
+    border-radius: 3px;
+}
+
+.emailInput,
+.passwordInput {
+    width: 93%;
+    margin-top: 21px;
+}
+
+#termsPolicy {
+    width: 25px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px gray;
+    width: 38%;
+    height: 540px;
+    margin: auto;
+    margin-top: 7%;
+    padding: 10px 0px 30px 0px;
+}
+
+.title {
+    line-height: 50px;
+    text-align: center;
+    margin: 21px;
+}
+
+.createAccount {
+    text-align: center;
+}
+
+.submitButton {
+    margin-left: 15px;
+    background-color:#249f5b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;    
+    width: 93%;
+}
+
+.signIn {
+    text-align: center;
+    color: white;
+}
+
+.signIn a {
+    color: white;
+}
