@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: gray;
+    outline: none;
 }
 
 html {
@@ -67,6 +68,7 @@ input {
     border-radius: 4px;
     padding: 15px;    
     width: 93%;
+    font-size: large;
 }
 
 .signIn {
